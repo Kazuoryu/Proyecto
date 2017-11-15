@@ -2,7 +2,7 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
-import { ArticleComponent } from './pages/article/article.component';
+import { ArticleComponent } from '../article/pages/article/article.component';
 
 @NgModule({
   imports: [
